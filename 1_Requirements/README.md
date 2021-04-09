@@ -56,19 +56,19 @@ Main aim of Number System Conversion is to convert one base number system to ano
 * Many of the College students use this for Microprocessors Memory Address Management, web page development(Colour Choice) , Inputs of the Logic gates.  
 # Detail requirements
 ## High Level Requirements: 
-| ID | Description | Category | 
-| ----- | ----- | ------- | 
-| HR01 | User shall be able to choose CHOICE of CONVERSION | Techincal | 
-| HR02 | User shall be able DECIDE whether he wants to continue or not?| Techincal | 
+| ID | Description | Category | Status |
+| ----- | ----- | ------- | --------- |
+| HR01 | User shall be able to choose CHOICE of CONVERSION | Techincal | Implemented |
+| HR02 | User shall be able DECIDE whether he wants to continue or not?| Techincal | Implemented |
 
 ##  Low level Requirements: 
-| ID | Description | HLR ID | 
-| ------ | --------- | ------ | 
-| LR01 | User shall be able to convert Binary to Decimal. | HR01 | 
-| LR02 | User shall be able to convert Binary to Octal. | HR01 | 
-| LR03 | User shall be able to convert Binary to Hexadecimal.| HR01 |  
-| LR04 | User shall be able to convert Decimal to Binary. | HR01 | 
-| LR05 | User shall be able to convert Decimal to Octal. | HR01 |
-| LR06 | User shall be able to convert Decimal to Hexadecimal. | HR01 |
-| LR07 | System should be able to verify user input whether it is valid or not? |  HR01 |
-| LR08 | System should be able to continue/stop according to user's Choice. | HR02 |
+| ID | Description | HLR ID | Status |
+| ------ | --------- | ------ |------- |
+| LR01 | User shall be able to convert Binary to Decimal. | HR01 |  Implemented |
+| LR02 | User shall be able to convert Binary to Octal. | HR01 |  Implemented |
+| LR03 | User shall be able to convert Binary to Hexadecimal.| HR01 |  Implemented | 
+| LR04 | User shall be able to convert Decimal to Binary. | HR01 |  Implemented |
+| LR05 | User shall be able to convert Decimal to Octal. | HR01 |  Implemented |
+| LR06 | User shall be able to convert Decimal to Hexadecimal. | HR01 | Implemented |
+| LR07 | System should be able to verify user input whether it is valid or not? |  HR01 | Implemented |
+| LR08 | System should be able to continue/stop according to user's Choice. | HR02 | Implemented |
