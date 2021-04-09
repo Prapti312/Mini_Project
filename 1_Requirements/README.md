@@ -37,3 +37,20 @@ Main aim of Number System Conversion is to convert one base number system to ano
 
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/Prapti312/Mini_Project/blob/main/1_Requirements/swot_analysis.jpg)
+
+# 4W&#39;s and 1&#39;H
+
+## Who:
+* Memory Managment System (Define Location) , Define Colours on Webpage , Microprocessor , Digital Electronics Gate Input , Precision output Systems 
+
+## What:
+* During Memory Writting it becomes a tedious task to calculate every address Manualy.In digital hardware, the natural numbering system is binary (base 2). but expressing anything in binary causes way too many bits to be used, so , it's not practical. hexadecimal allows us to use 4x fewer bits, so, it is very useful. besides no processor uses anything less than 4bits, so, hexadecimal is the most common when expressing numbers in a way that is most suitable for digital hardware.
+
+## When:
+* Generally, a computer uses the binary number system, but humans will use the hexadecimal number system, as it is easier to understand. For this reason, the number system conversion requirment occours.
+
+## Where:
+* This problem is expected to surface in all colleges of India.
+
+## How
+* Many of the College students use this for Microprocessors Memory Address Management, web page development(Colour Choice) , Inputs of the Logic gates.  
