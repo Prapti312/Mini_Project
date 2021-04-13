@@ -1,4 +1,4 @@
-# TEST PLAN:
+0-9 # TEST PLAN:
 
 ## Table no: High level test plan
 
@@ -9,8 +9,11 @@
 
 ## Table no: Low level test plan
 
-| **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
-|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+| **Test ID** | **Description**                                              | **Exp IN**   | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
+|-------------|--------------------------------------------------------------|--------------|-------------|----------------|------------------|
+|  L_01       |Binary to Decimal Conversion--> Check If user input is valid or not|int value in '1' or '0' format|int value Decimal(0-9)|Decimal value(0-9)|Requirement based |
+|  L_02       |Binary to Octal Conversion--> Check If user input is valid or not|int value in '1' or '0' format|int value Octal(0-7)|Octal value(0-7)|Requirement based |
+|  L_03       |Binary to Hexadecimal Conversion--> Check If user input is valid or not|int value in '1' or '0' format|int value Hexadecimal(0-9 & A-F)|Hexadecimal value(0-9 & A-F)|Requirement based |
+|  L_04       |Decimal to Binary Conversion--> Check If user input is valid or not|int value in (0-9)|int value in '1' or '0' format|value in '1' or '0'format|Requirement based|
+|  L_05       |Decimal to Octal Conversion--> Check If user input is valid or not|int value in (0-9)|int value in (0-7)|value in (0-7) format|Requirement based|
+|  L_06       |Decimal to Hexadecimal Conversion--> Check If user input is valid or not|int value in (0-9)| value in (0-9 & A-F)format| value in (0-9 & A-F)format|Requirement based|
