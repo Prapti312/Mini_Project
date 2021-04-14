@@ -27,12 +27,14 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Of Test C
 |F_07| Option to Choose Decimal to Octal conversion  |
 |F_08| Option to Choose Decimal to Hexadecimal conversion  |
 |F_09| To check that User Input is Valid or Not? |
-## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+## Challenges Faced and How Was It Overcome
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | Returning char array for Hexadecimal Values Cause Memory Overflow | Use Dynemically Allocated Memory for Char Pointer 
+|2. | After Execution of One Time Operation there is No Way to Continue  | Use Loop for Continuation of Program Execution|
+|3. | Program is Returning Garbage Values After Every Char Array | Added NULL Character at The End of Each Char Array Manually
+
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
