@@ -41,7 +41,7 @@ int main()
                     numbers=checking%10;
                     if(numbers>1)
                     {
-                        printf("\n%d IS NOT BINARY NUMBER.\n",b);
+                        printf("\n%ld IS NOT BINARY NUMBER.\n",b);
                         printf("***TRY AGAIN****\n");
                         goto D;
                     }
@@ -49,7 +49,7 @@ int main()
                     checking=checking/10;
                 }
 
-                printf("\nEquivalent Decimal Number : %d",Binary_to_Decimal(b)); break;
+                printf("\nEquivalent Decimal Number : %ld",Binary_to_Decimal(b)); break;
 
             case 2:
                 printf("\n***BINARY TO OCTAL***\n");
@@ -64,7 +64,7 @@ int main()
                     numbers=checking%10;
                     if(numbers>1)
                     {
-                        printf("\n%d IS NOT BINARY NUMBER.\n",b);
+                        printf("\n%ld IS NOT BINARY NUMBER.\n",b);
                         printf("***TRY AGAIN****\n");
                         goto E;
                     }
@@ -72,7 +72,7 @@ int main()
                     checking=checking/10;
                 }
 
-                printf("\nEquivalent Octal Number : %lld ",Binary_to_Octal(b)); break;
+                printf("\nEquivalent Octal Number : %ld ",Binary_to_Octal(b)); break;
 
             case 3:
                 printf("\n***BINARY TO HEXA-DECIMAL***\n");
@@ -87,7 +87,7 @@ int main()
                     numbers=checking%10;
                     if(numbers>1)
                     {
-                        printf("\n%d IS NOT BINARY NUMBER.\n",b);
+                        printf("\n%ld IS NOT BINARY NUMBER.\n",b);
                         printf("***TRY AGAIN****\n");
                         goto F;
                     }
