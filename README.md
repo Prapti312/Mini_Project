@@ -14,9 +14,19 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Of Test Cases|No Of Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`261528` | Prapti Bhajiyawala  | System convert One Base Number To Another Base Number e.g. 1) Binary to Decimal 2) Binary to Octal 3) Binary to Hexadecimal 4) Decimal to Binary 5) Decimal to Octal 6) Decimal to Hexadecimal| 2    | 2  |6  |6    
+`261528` | Prapti Bhajiyawala  | System convert One Base Number To Another Base Number e.g. 1) Binary to Decimal 2) Binary to Octal 3) Binary to Hexadecimal 4) Decimal to Binary 5) Decimal to Octal 6) Decimal to Hexadecimal| 4   | 2  |12  |12    
    
-
+| Feature Id | Feature |
+| -----------|---------|
+|F_01| Option to Select Required Conversion Type |
+|F_02| Option to Choose whether User want to Continue or Not? |
+|F_03| Option to Choose Binary to Decimal conversion |
+|F_04| Option to Choose Binary to Octal conversion |
+|F_05| Option to Choose Binary to Hexadecimal conversion |
+|F_06| Option to Choose Decimal to Binary conversion |
+|F_07| Option to Choose Decimal to Octal conversion  |
+|F_08| Option to Choose Decimal to Hexadecimal conversion  |
+|F_09| To check that User Input is Valid or Not? |
 ## Challenges Faced and How Was It Overcome
 
 1. ABC
