@@ -21,9 +21,9 @@ long int Binary_to_Octal(long int bin)
         length++;
     }
 
-    long long int i;
+    long int i;
 
-    long long int answer=remaining[length-1];
+    long int answer=remaining[length-1];
 
     for(i=length-2; i>=0 ; i--){
     	answer=(answer*10) + remaining[i];
