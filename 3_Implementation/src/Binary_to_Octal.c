@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include <string.h>
 #include "conversion.h"
 long int Binary_to_Octal(long int bin)
@@ -10,7 +9,7 @@ long int Binary_to_Octal(long int bin)
     {
         remainder=bin%10;
         bin=bin/10;
-        sum=sum+remainder*pow(2,x);
+        sum=sum+remainder*Power(2,x);
         x++;
     }
     x=0;

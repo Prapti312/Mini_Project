@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include <string.h>
 #include "conversion.h"
 #include<stdlib.h>
@@ -12,7 +11,7 @@ char* Binary_to_Hexadecimal(long int bin)
     {
         remainder=bin%10;
         bin=bin/10;
-        summation=summation+remainder*pow(2,x);
+        summation=summation+remainder*Power(2,x);
         x++;
     }
     x=0;

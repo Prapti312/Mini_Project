@@ -6,7 +6,8 @@ src/Binary_to_Octal.c\
 src/Binary_to_Hexadecimal.c\
 src/Decimal_to_Binary.c\
 src/Decimal_to_Octal.c\
-src/Decimal_to_Hexadecimal.c
+src/Decimal_to_Hexadecimal.c\
+src/Power.c
 
 TEST_SRC = test/test_conversion.c \
 unity/unity.c

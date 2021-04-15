@@ -54,5 +54,13 @@ long int Decimal_to_Octal(long int);
  * @return long int
  */
 char* Decimal_to_Hexadecimal(long int);
+/**
+ * @brief function for calculating power
+ *
+ * @param base
+ * @param exponent
+ * @return int
+ */
+long int Power(int base,long int exponent);
 
 #endif

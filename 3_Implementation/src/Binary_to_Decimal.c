@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include <string.h>
 #include "conversion.h"
 
@@ -11,7 +10,7 @@ long int Binary_to_Decimal(long int bin)
     {
         remainder=bin%10;
         bin=bin/10;
-        summation=summation+remainder*pow(2,x);
+        summation=summation+remainder*Power(2,x);
         x++;
     }
 

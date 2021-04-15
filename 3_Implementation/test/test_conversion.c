@@ -18,7 +18,7 @@ void test_B_to_D(void)
 void test_B_to_O(void)
 {
     TEST_ASSERT_EQUAL(10,Binary_to_Octal(1000));
-    TEST_ASSERT_EQUAL(0,Binary_to_Octal(0000));
+    TEST_ASSERT_EQUAL(11,Binary_to_Octal(1001));
 }
 
 void test_B_to_H(void)
@@ -45,6 +45,11 @@ void test_D_to_H(void)
     strcmp("0",Decimal_to_Hexadecimal(0));
 }
 
+void test_Power(void)
+{
+  TEST_ASSERT_EQUAL(4,Power(2,2));
+}
+
 int main()
 {
 /* Initiate the Unity Test Framework */
@@ -57,6 +62,7 @@ int main()
   RUN_TEST(test_D_to_B);
   RUN_TEST(test_D_to_O);
   RUN_TEST(test_D_to_H);
+  RUN_TEST(test_Power);
 
 
   /* Close the Unity Test Framework */
