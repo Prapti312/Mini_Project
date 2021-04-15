@@ -21,11 +21,11 @@ void test_B_to_O(void)
     TEST_ASSERT_EQUAL(11,Binary_to_Octal(1001));
 }
 
-void test_B_to_H(void)
-{
-    strcmp("10",Binary_to_Hexadecimal(10000));
-    strcmp("0",Binary_to_Hexadecimal(0000));
-}
+// void test_B_to_H(void)
+// {
+//     strcmp("10",Binary_to_Hexadecimal(10000));
+//     strcmp("0",Binary_to_Hexadecimal(0000));
+// }
 
 void test_D_to_B(void)
 {
@@ -39,12 +39,12 @@ void test_D_to_O(void)
     TEST_ASSERT_EQUAL(0,Decimal_to_Octal(00));
 }
 
-void test_D_to_H(void)
+/*void test_D_to_H(void)
 {
     strcmp("A",Decimal_to_Hexadecimal(10));
     strcmp("0",Decimal_to_Hexadecimal(0));
 }
-
+*/
 void test_Power(void)
 {
   TEST_ASSERT_EQUAL(4,Power(2,2));
