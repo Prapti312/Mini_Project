@@ -9,6 +9,8 @@ src/Decimal_to_Octal.c\
 src/Decimal_to_Hexadecimal.c\
 src/Power.c
 
+COV_SRC = test_conversion.c
+
 TEST_SRC = test/test_conversion.c \
 unity/unity.c
 INC_H = inc
@@ -39,7 +41,13 @@ test:
 coverage:
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a  test/test.c
+	gcov -a $(COV_SRC)
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
+	$(RM) test_conversion.c
+
 
 cppcheck:
 	cppcheck --enable=all $(SRC) main.c
@@ -48,10 +56,11 @@ debug:
 	gdb $(PROJ_NAME).$(EXEC)
 
 valgrind:
-	valgrind ./$(PROJ_NAME).$(EXEC)
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
 
 
 clean:
-	del *.$(EXEC)
-	del *.gcda
-	del *.gcno
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
