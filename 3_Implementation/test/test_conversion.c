@@ -58,10 +58,10 @@ int main()
 /* Run Test functions */
   RUN_TEST(test_B_to_D);
   RUN_TEST(test_B_to_O);
-  RUN_TEST(test_B_to_H);
+  //RUN_TEST(test_B_to_H);
   RUN_TEST(test_D_to_B);
   RUN_TEST(test_D_to_O);
-  RUN_TEST(test_D_to_H);
+  //RUN_TEST(test_D_to_H);
   RUN_TEST(test_Power);
 
 
