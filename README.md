@@ -17,6 +17,8 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Report`         | Documents with overall report
 `6_ImagesAndVideos`| Related Videos and images regarding project
+`7_Other`          | References
+
 
 
 ## Contributors List and Summary
