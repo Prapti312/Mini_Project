@@ -2,15 +2,7 @@
 # SDLC Activity Based Learning
 ![Banner](https://github.com/Prapti312/Mini_Project/blob/main/4_TestPlan/banner.png)
 
-
-
-Build | Code Quality | Unity | Git Inspector
-|---------|------------|-----------|----------------
-[![C/C++ CI](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/c-cpp.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/c-cpp.yml)|[![Static Check](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/c-cppcheck.yml) [![Valgrind-check](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/Dynamic-code-quality.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/Dynamic-code-quality.yml)  [![Coverage Badge](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/code-coverage.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/code-coverage.yml)  | [![Unity-Check](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/unity.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/unity.yml) | [![git inspector CI](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/gitinspector.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/blob/main/.github/workflows/gitinspector.yml)
-
-
-
-## Folder Structure
+# Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements and research
