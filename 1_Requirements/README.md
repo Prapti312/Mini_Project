@@ -16,7 +16,7 @@ Main aim of Number System Conversion is to convert one base number system to ano
 *  Octal was used widely in the Electronics and Computer Industry, as although digital electronics is based on gates with only two states and is therefore fundamentally binary, binary numbers can quickly become long and hard to transcribe without errors. Their octal equivalents are much shorter and easier to remember, and have a straight-forward way of conversion to/from binary.
 *  Unix file system permissions have three sets (user, group, others) of three bit permissions (read, write, execute), which is naturally represented in octal.
 ### 3) Decimal number system
-* We use decimals every day, while dealing with money, weight, length etc. Decimal numbers are used in situations where more precision is required, than the whole numbers can provide. For example, when we calculate our weight on the weighing machine, we do not always find the weight equal to a whole number on the scale.
+*  We use decimals every day, while dealing with money, weight, length etc. Decimal numbers are used in situations where more precision is required, than the whole numbers can provide. For example, when we calculate our weight on the weighing machine, we do not always find the weight equal to a whole number on the scale.
 ### 4) Hexadecimal number system
 *  To define locations in memory.
 *  To define colours on web pages.
