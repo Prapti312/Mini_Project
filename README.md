@@ -23,7 +23,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Of Test Cases|No Of Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`261528` | Prapti Bhajiyawala  | System convert One Base Number To Another Base Number e.g. 1) Binary to Decimal 2) Binary to Octal 3) Binary to Hexadecimal 4) Decimal to Binary 5) Decimal to Octal 6) Decimal to Hexadecimal| 4   | 2  |12  |12    
+`261528` | Prapti Bhajiyawala  | System convert One Base Number To Another Base Number e.g. 1) Binary to Decimal 2) Binary to Octal 3) Binary to Hexadecimal 4) Decimal to Binary 5) Decimal to Octal 6) Decimal to Hexadecimal| 4   | 2  |7  |7   
    
 | Feature Id | Feature |
 | -----------|---------|
