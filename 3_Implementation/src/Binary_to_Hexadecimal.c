@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <string.h>
-#include "conversion.h"
+//#include "conversion.h"
 #include<stdlib.h>
+extern long int Power(int a, long int b);
 
 char* Binary_to_Hexadecimal(long int bin)
 {
-    int remainder,x=0,summation=0,remaining[100],length=0;
+    int x=0,summation=0,remaining[100],length=0;
 
     while(bin!=0)
     {
+        int remainder;
         remainder=bin%10;
         bin=bin/10;
         summation=summation+remainder*Power(2,x);

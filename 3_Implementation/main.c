@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include<string.h>
-#include "conversion.h"
+#include "inc/conversion.h"
 #include<stdlib.h>
 
 int main()
 {
     int operations,numbers=1,checking;
-    long int b,o,d;
-    char h[100];
+    long int b,d;
+    //char h[100];
     int x,y,spacebar;
 
     printf("\t\tWELCOME TO NUMBER SYSTEM CONVERSION\n\n");

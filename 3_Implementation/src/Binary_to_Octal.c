@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-#include "conversion.h"
+//#include "conversion.h"
+extern long int Power(int a, long int b);
+
 long int Binary_to_Octal(long int bin)
 {
-    int x=0,remainder,sum=0,remaining[100],length=0;
+    int x=0,sum=0,remaining[100],length=0;
 
     while(bin!=0)
     {
+        int remainder;
         remainder=bin%10;
         bin=bin/10;
         sum=sum+remainder*Power(2,x);

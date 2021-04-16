@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#include "conversion.h"
+//#include "conversion.h"
 #include<stdlib.h>
 
 char* Decimal_to_Hexadecimal(long int dec)
 {
-    int remainder[50],x,length=0;
+    int remainder[50],x=0,length=0;
     do
     {
         remainder[x]=dec%16;
