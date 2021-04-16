@@ -2,8 +2,6 @@
 # SDLC Activity Based Learning
 ![Banner](https://github.com/Prapti312/Mini_Project/blob/main/4_TestPlanAndOutput/banner.png)
 
-
-
 Build | Cppcheck |Valgrind |Code Coverage | Unity | Git Inspector
 |---------|------------|------------|-----------|----------|----------
 [![C/C++ CI](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml) | [![Valgrind-check](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml) | [![Coverage Badge](https://img.shields.io/badge/coverage-100%25-blue)]() ![CI-Coverage](https://github.com/Prapti312/Mini_Project/actions/workflows/code-coverage.yml/badge.svg) | [![Unity-Check](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml) | [![git inspector CI](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml)
@@ -18,8 +16,6 @@ Folder             | Description
 `5_Report`         | Documents with overall report
 `6_ImagesAndVideos`| Related Videos and images regarding project
 `7_Other`          | References
-
-
 
 ## Contributors List and Summary
 
@@ -51,8 +47,6 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Of Test C
 *  Unit tests with Cunit
 *  Static code analysis using cppcheck
 *  Dynamic Code analysis using Valgrind
-
-
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
