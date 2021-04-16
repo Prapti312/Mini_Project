@@ -6,7 +6,7 @@
 
 * Sequence Diagram :
 
-![SequenceDiagram](https://github.com/Prapti312/Mini_Project/blob/main/2_Design/Sequence_Diagram.jpg)
+![SequenceDiagram](https://github.com/Prapti312/Mini_Project/blob/main/2_Architecture/Sequence_Diagram.jpg)
 
 * Component Diagram :
 
