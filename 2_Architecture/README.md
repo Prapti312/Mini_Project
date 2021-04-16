@@ -10,4 +10,4 @@
 
 * Component Diagram :
 
-![ComponentDiagram](https://github.com/Prapti312/Mini_Project/blob/main/2_Design/Component_Diagram.jpg)
+![ComponentDiagram](https://github.com/Prapti312/Mini_Project/blob/main/2_Architecture/Component_Diagram.jpg)
