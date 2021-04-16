@@ -4,9 +4,9 @@
 
 
 
-Build | Code Quality | Unity | Git Inspector
-|---------|------------|-----------|----------------
-[![C/C++ CI](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml) [![Valgrind-check](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml) [![Coverage Badge](https://img.shields.io/badge/coverage-100%25-blue)]()  | [![Unity-Check](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml) | [![git inspector CI](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml)
+Build | Cppcheck |Valgrind Unity | Git Inspector
+|---------|------------|------------|-----------|----------------
+[![C/C++ CI](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml) | [![Valgrind-check](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml) [![Coverage Badge](https://img.shields.io/badge/coverage-100%25-blue)]()  | [![Unity-Check](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml) | [![git inspector CI](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml)
 
 ## Folder Structure
 Folder             | Description
