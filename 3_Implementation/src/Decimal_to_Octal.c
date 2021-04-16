@@ -14,9 +14,7 @@ long int Decimal_to_Octal(long int dec)
         length++;
     }
     while(dec!=0);
-
-   long int i;
-
+    long int i;
     long int answer=remainder[length-1];
 
     for(i=length-2; i>=0 ; i--){

@@ -8,7 +8,6 @@ void setUp(){}
 /* Required by the unity test framework */
 void tearDown(){}
 
-
 void test_B_to_D(void)
 {
   TEST_ASSERT_EQUAL(4,Binary_to_Decimal(100));
@@ -63,8 +62,6 @@ int main()
   RUN_TEST(test_D_to_O);
   RUN_TEST(test_D_to_H);
   RUN_TEST(test_Power);
-
-
-  /* Close the Unity Test Framework */
+ /* Close the Unity Test Framework */
   return UNITY_END();
 }

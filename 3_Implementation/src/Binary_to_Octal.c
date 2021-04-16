@@ -6,7 +6,6 @@ extern long int Power(int a, long int b);
 long int Binary_to_Octal(long int bin)
 {
     int x=0,sum=0,remaining[100],length=0;
-
     while(bin!=0)
     {
         int remainder;
@@ -23,11 +22,8 @@ long int Binary_to_Octal(long int bin)
         x++;
         length++;
     }
-
     long int i;
-
     long int answer=remaining[length-1];
-
     for(i=length-2; i>=0 ; i--){
     	answer=(answer*10) + remaining[i];
 	}

@@ -7,7 +7,6 @@ extern long int Power(int a, long int b);
 char* Binary_to_Hexadecimal(long int bin)
 {
     int x=0,summation=0,remaining[100],length=0;
-
     while(bin!=0)
     {
         int remainder;

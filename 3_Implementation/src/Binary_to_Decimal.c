@@ -3,7 +3,6 @@
 //#include "conversion.h"
 extern long int Power(int a, long int b);
 
-
 long int Binary_to_Decimal(long int bin)
 {
     int summation=0,x=0;
@@ -15,6 +14,5 @@ long int Binary_to_Decimal(long int bin)
         summation=summation+remainder*Power(2,x);
         x++;
     }
-
     return summation;
 }

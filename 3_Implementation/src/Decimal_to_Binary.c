@@ -3,7 +3,6 @@
 //#include "conversion.h"
 #include<stdlib.h>
 
-
 long int Decimal_to_Binary(long int dec)
 {
     int remainder[50],x=0,length=0;
@@ -15,11 +14,8 @@ long int Decimal_to_Binary(long int dec)
         length++;
     }
     while(dec!=0);
-
     long int i;
-
     long int answer=remainder[length-1];
-
     for(i=length-2; i>=0 ; i--){
     	answer=(answer*10) + remainder[i];
 	}

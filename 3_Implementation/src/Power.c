@@ -1,6 +1,5 @@
 //#include "conversion.h"
 #include <stdio.h>
-
 long int Power(int base,long int exponent)
 {
 long int result=1;

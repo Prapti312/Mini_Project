@@ -15,7 +15,6 @@ char* Decimal_to_Hexadecimal(long int dec)
     }
     while(dec!=0);
 
-
     char *str;
     str = (char*)malloc(100);
     int i;
