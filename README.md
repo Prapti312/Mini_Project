@@ -8,7 +8,7 @@ Build | Code Quality | Unity | Git Inspector
 |---------|------------|-----------|----------------
 [![C/C++ CI](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/c-cppcheck.yml) [![Valgrind-check](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/Dynamic-code-quality.yml) [![Coverage Badge](https://img.shields.io/badge/coverage-100%25-blue)]()  | [![Unity-Check](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/unity.yml) | [![git inspector CI](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Prapti312/Mini_Project/actions/workflows/gitinspector.yml)
 
-# Folder Structure
+## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements and research
@@ -43,6 +43,13 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Of Test C
 |1. | Returning char array for Hexadecimal Values Cause Memory Overflow | Use Dynemically Allocated Memory for Char Pointer 
 |2. | After Execution of One Time Operation there is No Way to Continue  | Use Loop for Continuation of Program Execution|
 |3. | Program is Returning Garbage Values After Every Char Array | Added NULL Character at The End of Each Char Array Manually
+
+## GitHub Actions
+*  Build  using  Make  for  CI
+*  Unit tests with Cunit
+*  Static code analysis using cppcheck
+*  Dynamic Code analysis using Valgrind
+
 
 
 ## Learning Resources
