@@ -13,7 +13,7 @@
 #define __CONVERSION_H__
 
 /**
- * @brief Function for Binary to Decimal Number Conversion
+ * @brief Function for Binary to Decimal Number conversion
  *
  * @param int
  * @return long int
